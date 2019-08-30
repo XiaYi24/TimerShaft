@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_left"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tv_line_a"
+                android:layout_width="1px"
+                android:layout_height="24dp"
+                android:layout_centerHorizontal="true"
+                android:background="#ccc" />
+
+            <ImageView
+                android:id="@+id/iv_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:src="@mipmap/icon_a" />
+
+            <TextView
+                android:id="@+id/tv_line"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/iv_tag"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-1dp"
+                android:background="#ccc" />
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="26dp"
+            android:layout_toRightOf="@+id/rl_left"
+            android:background="@mipmap/icon_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="商家同意退款"
+                android:textColor="#333"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:text="4天23小时56分 后系统自动退款"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="收货人：平平"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:text="联系电话：1392XXXXX"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:text="2019-08-11 11:36:47"
+                android:textColor="#999"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
